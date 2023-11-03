@@ -16,7 +16,7 @@ n_param = length(theta_true);
 
 x = rand(1, sample_size)*10; 
 e = mu + sigma_e * randn(1, sample_size);
-y = theta_true(1)*x + theta_true(2) +  e;             % a = 40; b = 50; y = a + b*x
+y = theta_true(1)*x + theta_true(2) +  e;             % a = 4; b = 50; y = a + b*x
 data = [x' y'];
 
 %%
