@@ -7,7 +7,7 @@ The Robust Adaptive Metropolis Algorithm dynamically adjusts its proposal distri
 A linear model can be expressed as\
 $\huge{y = {X}{\theta} + \epsilon} $  
 $\huge{\epsilon \sim N(0, \sigma^{2})}$ 
-$\huge{\frac{\utilde{ab}}{c} \neq \frac{ab}{c}}$
+$\huge{\frac{{\utilde{ab}}}{c} \neq \frac{ab}{c}}$
 
 ## The RAM algorithm
 
