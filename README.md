@@ -15,5 +15,5 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 [1] Särkkä S, Svensson L. Bayesian filtering and smoothing. Cambridge university press; 2023 May 31.[Link](https://books.google.co.in/books?hl=en&lr=&id=utXBEAAAQBAJ&oi=fnd&pg=PP1&dq=bayesian+filtering+and+smoothing&ots=GX-dLQ7sTN&sig=aZTp8fQkWR6yzu1NrCQUvIWnYeA&redir_esc=y#v=onepage&q=bayesian%20filtering%20and%20smoothing&f=false) 
 
 ## See Also
-- [Robust Adaptive Metropolis for parameter estimation in Linear Model]([https://github.com/debrup-sarkar/Metropolis-Hastings-algorithm-for-parameter-estimation-in-linear-models/blob/main/README.md])
+- [Robust Adaptive Metropolis for parameter estimation in Linear Model](https://github.com/debrup-sarkar/Metropolis-Hastings-algorithm-for-parameter-estimation-in-linear-models/blob/main/README.md)
 
