@@ -7,7 +7,7 @@ The Robust Adaptive Metropolis Algorithm dynamically adjusts its proposal distri
 A linear model can be expressed as\
 $\huge{y = {X}{\theta} + \epsilon} $  
 $\huge{\epsilon \sim N(0, \sigma^{2})}$ 
-$\underaccent{\tilde}{a}$
+$\underaccent{\tilde{a}}$
 
 ## The RAM algorithm
 
