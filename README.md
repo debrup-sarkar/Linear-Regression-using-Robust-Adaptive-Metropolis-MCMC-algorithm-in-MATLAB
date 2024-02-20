@@ -17,5 +17,5 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
 [2] [Vihola, M. Robust adaptive Metropolis algorithm with coerced acceptance rate. Stat Comput 22, 997–1008 (2012).](https://doi.org/10.1007/s11222-011-9269-5)
 
-## See Also
+## See also
 - [Metropolis Hastings algorithm for parameter estimation in Linear Models](https://github.com/debrup-sarkar/Metropolis-Hastings-algorithm-for-parameter-estimation-in-linear-models/blob/main/README.md)
