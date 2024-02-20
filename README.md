@@ -8,7 +8,7 @@ A linear model can be expressed as\
 $\huge{y = {X}^{T}{\theta} + \epsilon} $  
 $\huge{\epsilon \sim N(0, \sigma^{2})}$ 
 
-## The Metropolis Hastings algorithm
+## The RAM algorithm
 
 
 ## References
