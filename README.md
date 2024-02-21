@@ -24,7 +24,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
     * Accept or reject the candidate parameter
       
-      IF $\huge{\alpha_i > u, \theta_{i} = \theta^*}$
+      IF $\huge{\alpha_i \ge u, \theta_{i} = \theta^*}$
       
       ELSE $\huge{\theta_{i} = \theta_{i-1}}$
       
