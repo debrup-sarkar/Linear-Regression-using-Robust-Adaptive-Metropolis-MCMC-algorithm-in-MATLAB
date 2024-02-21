@@ -11,13 +11,15 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 ## The RAM algorithm
 
 * Draw $\theta^{0}$ from an initial distribution $p_0(\theta)$, and initialize $S_0$ to be the lower triangular cholesky factor of the initial covariance matrix $\Sigma_0$.
-* For $sample = 1, 2, \ldots, N$, do:
+* For MCMC samples $i = 1, 2, \ldots, N$, do:
     * Sample a candidate point\
       $\huge{\theta^* = \theta_{i-1} + S_{i-1}r_i }$\
       where\
       $\huge{r_i \sim N(0, 1)} $ 
     * Compute the acceptance probability $(\alpha)$:\
-      $\huge{\alpha_i = min\{\}
+      $\huge{\alpha_i = min\{1,R\}$\
+      $\huge{R = \exp\{\phi(\theta_{i-1}) - \phi(\theta^*)\}}$
+      
 
 
 ## References
