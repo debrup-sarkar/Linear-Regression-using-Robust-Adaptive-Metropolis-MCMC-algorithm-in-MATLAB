@@ -24,9 +24,9 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
     * Accept or reject the candidate parameter
       
-      if $\huge{\alpha_i > u, \theta_{i} = \theta^*}$
+      IF $\huge{\alpha_i > u, \theta_{i} = \theta^*}$
       
-      else $\huge{\theta_{i} = \theta_{i-1}}$
+      ELSE $\huge{\theta_{i} = \theta_{i-1}}$
       
     * Compute a lower triangular matrix $S_i$ with positive diagonal elements satisfying the equation given below:\
       $\huge{{S_i S_i^T} = S_{i-1} (I + \eta_i (\alpha_i - \bar{\alpha}^*)\frac{r_i r_i^T}{\|{r_i}\|^2})S_{i-1}^T}$
