@@ -15,7 +15,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 * Draw $\theta^{0}$ from an initial distribution $p_0(\theta)$, and initialize $S_0$ to be the lower triangular cholesky factor of the initial covariance matrix $\Sigma_0$.
 * For MCMC samples $i = 1, 2, \ldots, N$, do:
     * Sample a candidate point\
-      $\underline{\theta}^* = \underline\theta_{i-1} + \underline\underlineS_{i-1}\underline{r}_i $\
+      $\underline{\theta}^* = \underline\theta_{i-1} + \underline\underline{S}_{i-1}\underline{r}_i $\
       where\
       $\huge{r_i \sim N(0, 1)} $ 
     * Compute the acceptance probability $(\alpha)$:\
