@@ -5,7 +5,8 @@ The Robust Adaptive Metropolis Algorithm dynamically adjusts its proposal distri
 
 ## The model
 A linear model can be expressed as\
-$\huge{y = {X}{\theta} + \epsilon} $\ 
+$\huge{y = {X}{\theta} + \epsilon} $
+
 where $\epsilon$ is the gaussian noise in the data\
 $\huge{\epsilon \sim N(0, \sigma^{2})}$ 
 
