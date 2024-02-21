@@ -1,5 +1,5 @@
 
-# Robust Adaptive Metropolis (RAM) Algorithm for parameter estimation in linear models
+# Robust Adaptive Metropolis (RAM) algorithm for parameter estimation in linear models
 
 The Robust Adaptive Metropolis Algorithm dynamically adjusts its proposal distribution during sampling, facilitating better exploration of the target distribution and increasing acceptance rates. This adaptability improves efficiency by aligning proposals more effectively with the distribution's characteristics, offering advantages over the static proposal distributions of conventional Metropolis-Hastings methods.
 
