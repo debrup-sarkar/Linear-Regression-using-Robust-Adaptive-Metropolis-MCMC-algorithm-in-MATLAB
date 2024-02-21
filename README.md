@@ -11,6 +11,8 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 ## The RAM algorithm
 
 * Draw $\theta^{0}$ from an initial distribution $p_0(\theta)$, and initialize $S_0$ to be the lower triangular cholesky factor of the initial covariance matrix $\Sigma_0$.
+* For $sample = 1, 2, \ldots, N$, do:
+    *
 
 
 ## References
