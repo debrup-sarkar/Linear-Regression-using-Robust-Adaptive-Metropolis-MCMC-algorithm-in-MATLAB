@@ -33,7 +33,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
       $\bar{\alpha}^*$ is the optimum acceptance probability for metropolis algorithms and is generally taken as $0.23$.
 
-However, unlike metropolis hastings algorithm, in this algorithm the proposal candidate is always sampled from a symmetric distribution such as the gaussian distribution.
+Unlike metropolis hastings algorithm, in this algorithm the proposal candidate is always sampled from a symmetric distribution such as the gaussian distribution.
 
 If the proposal distribution is a symmetric one,
 
