@@ -21,6 +21,8 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
       $\huge{R = \exp(\phi(\theta_{i-1}) - \phi(\theta^*))}$
     * Sample a random variable $u$ from an uniform distribution\
       $\huge{u \sim U(0,1)}$
+    * Compute a lower triangular matrix $S_i$ with positive diagonal elements satisfying the equation given below:
+      $\huge{S_i S_i^T}$
        
       
 
