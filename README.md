@@ -30,11 +30,17 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
       
       Vihola [[2]](https://github.com/debrup-sarkar/Robust-Adaptive-Metropolis-algorithm-for-parameter-estimation-in-linear-models#references) suggested that $\eta_i = i^{-\gamma}$.\
       The value of $\gamma$ can be taken as $\gamma \in (\frac{1}{2},1]$.\
+
       $\bar{\alpha}^*$ is the optimum acceptance probability for metropolis algorithms and is generally taken as $0.23$.\
+
       However, unlike metropolis hastings algorithm, in this algorithm the proposal candidate is always samples from a symmetric distribution such as the gaussian distribution.\
+
       If the proposal distribution is a symmetric one,\
+
       $P(\theta_{i-1} | \theta^* ) = P(\theta^* | \theta_{i-1})$\
+
       Hence,the value of the proposal ratio $\frac{P(\theta_{i-1} | \theta^* )}{P(\theta^* | \theta_{i-1})}$ becomes $1$.\
+
       To get a better understanding on the implementation of this algorithm check the code provided in this repository. Feel free to reach out to me for discussions. 
       
       
