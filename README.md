@@ -5,13 +5,12 @@ The Robust Adaptive Metropolis Algorithm dynamically adjusts its proposal distri
 
 ## The model
 A linear model can be expressed as\
-$\huge{y = \underline{\underline{X}}\underline{\theta} + \epsilon} $
+$\huge{\tilde{y} = \tilde{\tilde{X}}\tilde{\theta} + \epsilon} $
 
 where $\epsilon$ is the gaussian noise in the data\
 $\huge{\epsilon \sim N(0, \sigma^{2})}$ 
 
 ## The RAM algorithm
-$\tilde{A}$
 
 * Draw $\theta^{0}$ from an initial distribution $p_0(\theta)$, and initialize $S_0$ to be the lower triangular cholesky factor of the initial covariance matrix $\Sigma_0$.
 * For MCMC samples $i = 1, 2, \ldots, N$, do:
