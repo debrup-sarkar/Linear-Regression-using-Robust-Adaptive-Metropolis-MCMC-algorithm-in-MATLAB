@@ -22,8 +22,10 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     * Sample a random variable $u$ from an uniform distribution\
       $\huge{u \sim U(0,1)}$
 
-    * Accept or reject the candidate parameter\
-      if $\huge{\alpha_i > u$, \theta_{i} = \theta^*}$\
+    * Accept or reject the candidate parameter
+      
+      if $\huge{\alpha_i > u, \theta_{i} = \theta^*}$
+      
       else $\huge{\theta_{i} = \theta_{i-1}}$
       
     * Compute a lower triangular matrix $S_i$ with positive diagonal elements satisfying the equation given below:\
