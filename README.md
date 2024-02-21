@@ -33,15 +33,15 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
       $\bar{\alpha}^*$ is the optimum acceptance probability for metropolis algorithms and is generally taken as $0.23$.
 
-      However, unlike metropolis hastings algorithm, in this algorithm the proposal candidate is always sampled from a symmetric distribution such as the gaussian distribution.
+However, unlike metropolis hastings algorithm, in this algorithm the proposal candidate is always sampled from a symmetric distribution such as the gaussian distribution.
 
-      If the proposal distribution is a symmetric one,
+If the proposal distribution is a symmetric one,
 
-      $P(\theta_{i-1} | \theta^* ) = P(\theta^* | \theta_{i-1})$
+$P(\theta_{i-1} | \theta^* ) = P(\theta^* | \theta_{i-1})$
 
-      Hence,the value of the proposal ratio $\frac{P(\theta_{i-1} | \theta^* )}{P(\theta^* | \theta_{i-1})}$ becomes $1$.
+Hence,the value of the proposal ratio $\frac{P(\theta_{i-1} | \theta^* )}{P(\theta^* | \theta_{i-1})}$ becomes $1$.
 
-      To get a better understanding on the implementation of this algorithm check the code for parameter estimation in linear model using this algorithm provided in this repository. Feel free to reach out to me for discussions. 
+To get a better understanding on the implementation of this algorithm check the code for parameter estimation in linear model using this algorithm provided in this repository. Feel free to reach out to me for discussions. 
       
       
        
