@@ -14,9 +14,10 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 * For $sample = 1, 2, \ldots, N$, do:
     * Sample a candidate point\
       $\huge{\theta^* = \theta_{i-1} + S_{i-1}r_i }$\
-      where
+      where\
       $\huge{r_i \sim N(0, 1)} $ 
-    * 
+    * Compute the acceptance probability $(\alpha)$:\
+      $\huge{\alpha_i = min\{1,\exp(\phi(\theta_{i-1}) - \phi(\theta^{*})\}$
 
 
 ## References
