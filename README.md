@@ -22,7 +22,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     * Sample a random variable $u$ from an uniform distribution\
       $\huge{u \sim U(0,1)}$
 
-    * Accept or reject the candidate parameter
+    * Accept or reject the proposal candidate
       
       IF $\huge{\alpha_i \ge u, \theta_{i} = \theta^*}$
       
