@@ -26,7 +26,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
       
       Where $\eta$ is an adaptation step size sequence which is decaying to $0$ which can be expressed mathematically as\
       
-      $\huge{\\{\eta_i\\}_{i \ge 1} {\subset} {(0,1]} }$\
+      $\huge{\\{\eta_i\\}_{i \ge 1} {\subset} {(0,1]} }$
       
       Vihola [[2]](https://github.com/debrup-sarkar/Robust-Adaptive-Metropolis-algorithm-for-parameter-estimation-in-linear-models#references) suggested that $\eta_i = i^{-\gamma}$.\
       The value of $\gamma$ can be taken as $\gamma \in (\frac{1}{2},1]$.
