@@ -17,7 +17,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
       where\
       $\huge{r_i \sim N(0, 1)} $ 
     * Compute the acceptance probability $(\alpha)$:\
-      $\huge{\alpha_i = min\{1,R\}$\
+      $\huge{\alpha_i = min\{1,R\}}$\
       $\huge{R = \exp\{\phi(\theta_{i-1}) - \phi(\theta^*)\}}$
       
 
