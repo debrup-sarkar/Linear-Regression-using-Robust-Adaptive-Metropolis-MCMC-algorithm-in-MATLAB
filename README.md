@@ -24,7 +24,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     * Compute a lower triangular matrix $S_i$ with positive diagonal elements satisfying the equation given below:\
       $\huge{{S_i S_i^T} = S_{i-1} (I + \eta_i (\alpha_i - \bar{\alpha}^*)\frac{r_i r_i^T}{\|{r_i}\|^2})S_{i-1}^T}$
       
-      Where $\eta$ is an adaptation step size sequence which is decaying to $0$ which can be expressed mathematically as\
+      Where $\eta$ is an adaptation step size sequence which is decaying to $0$ which can be expressed mathematically as
       
       $\huge{\\{\eta_i\\}_{i \ge 1} {\subset} {(0,1]} }$
       
