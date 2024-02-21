@@ -19,6 +19,9 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
     * Compute the acceptance probability $(\alpha)$:\
       $\huge{\alpha_i = min\\{1,R\\}}$\
       $\huge{R = \exp(\phi(\theta_{i-1}) - \phi(\theta^*))}$
+    * Sample a random variable $u$ from an uniform distribution
+      $\huge{u \sim U(0,1)}$
+       
       
 
 
