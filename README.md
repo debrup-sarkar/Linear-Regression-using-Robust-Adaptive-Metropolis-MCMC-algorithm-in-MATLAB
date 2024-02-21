@@ -41,7 +41,7 @@ $\huge{\epsilon \sim N(0, \sigma^{2})}$
 
       Hence,the value of the proposal ratio $\frac{P(\theta_{i-1} | \theta^* )}{P(\theta^* | \theta_{i-1})}$ becomes $1$.
 
-      To get a better understanding on the implementation of this algorithm check the code provided in this repository. Feel free to reach out to me for discussions. 
+      To get a better understanding on the implementation of this algorithm check the code for parameter estimation in linear model using this algorithm provided in this repository. Feel free to reach out to me for discussions. 
       
       
        
